@@ -7,11 +7,11 @@
 body {
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 800px;
     align-items: center;
 }
 #container{
-    width: 400px;
+    width: 450px;
     display: flex;
     margin-top: 30px;
     height: auto;
@@ -19,13 +19,18 @@ body {
 #myForm {
     padding: 30px;
     display: flex;
-    width: 300px;
+    width: 450px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     background-color: rgb(203, 201, 229);
     border-radius: 5px;
-    height: 450px;
+    height: 650px;
+    justify-content: center;
+    background-image: url(./my-melody.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 input{
     color: rgb(75, 65, 150);
@@ -38,9 +43,13 @@ input::placeholder{
     color: rgb(169, 166, 213);
 }
 label{
-    color: rgb(255, 237, 253);
+    color: rgb(209, 154, 154);
     font-weight: 400;
     margin-bottom: 5px;
+}
+
+label#comments{
+  
 }
 textarea{
     color: rgb(75, 65, 150);
@@ -48,6 +57,7 @@ textarea{
     border: none;
     padding: 10px;
     border-radius: 5px;
+    opacity: calc(80%);
 }
 textarea::placeholder{
     color: rgb(169, 166, 213);
