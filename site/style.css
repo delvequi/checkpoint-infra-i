@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
 }
 body {
     display: flex;
@@ -11,7 +12,7 @@ body {
     align-items: center;
 }
 #container{
-    width: 450px;
+    width: 550px;
     display: flex;
     margin-top: 30px;
     height: auto;
@@ -19,18 +20,23 @@ body {
 #myForm {
     padding: 30px;
     display: flex;
-    width: 450px;
+    width: 550px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     background-color: rgb(203, 201, 229);
     border-radius: 5px;
-    height: 650px;
+    height: 750px;
     justify-content: center;
     background-image: url(./my-melody.jpg);
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
+}
+h2{
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    color: rgb(169, 166, 213);
 }
 input{
     color: rgb(75, 65, 150);
